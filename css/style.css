@@ -8,18 +8,36 @@ body {
 
 /* Navigatie */
 nav {
-  margin: 20px 0;
+  margin: 0;
+  padding: 12px 0;
+  font-size: 1.1rem;
+  background-color: #f4f8f3; /* heel lichtgroen */
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 nav a {
   text-decoration: none;
   color: #006400; /* donkergroen */
-  margin: 0 10px;
+  margin: 0 12px;
+  padding: 4px 0;
+  transition: color 0.2s ease;
 }
 
 nav a:hover {
+  color: #228B22; /* iets lichter groen bij hover */
   text-decoration: underline;
 }
+
+/* Zorg dat links op mobiel niet te dicht op elkaar staan */
+@media (max-width: 600px) {
+  nav a {
+    display: inline-block;
+    margin: 6px 8px;
+  }
+}
+
+
 
 /* Afbeeldingen & figuren */
 figure {
