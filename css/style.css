@@ -37,7 +37,14 @@ nav a:hover {
   }
 }
 
-
+h1 { margin: 16px auto 8px; }
+h2 {
+  margin: 20px auto 8px;
+  font-size: 1.25rem;
+  color: #2f4f2f; /* donker olijfgroen */
+  max-width: 900px; padding: 0 12px;
+  text-align: left;        /* kopjes links voor rust */
+}
 
 /* Afbeeldingen & figuren */
 figure {
@@ -59,6 +66,8 @@ figcaption {
 }
 
 /* Layout helpers */
+.container h1, .container h2 { text-align: center; }
+
 .container {
   max-width: 900px;
   margin: 16px auto;
