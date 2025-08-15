@@ -100,6 +100,9 @@ figcaption {
 }
 
 
+
+
+
 .card {
   width: 100%;
   max-width: 320px;               /* prevent super-wide cards */
@@ -119,16 +122,17 @@ figcaption {
 
 .card figure {
   margin: 0;
+  
 }
 
 .card img {
   max-width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 8px;
 }
 
 .card figcaption {
-  margin-top: 8px;
+  margin-top: auto;
   font-weight: 600;
 }
 
@@ -150,7 +154,7 @@ figcaption {
 /* Gallery */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 16px;
   margin-top: 16px;
   justify-items: center; 
