@@ -37,7 +37,10 @@ nav a:hover {
   }
 }
 
-h1 { margin: 16px auto 8px; }
+h1 {
+  margin: 16px auto 8px;
+  padding: 0 12px;
+}
 h2 {
   margin: 20px auto 8px;
   font-size: 1.25rem;
