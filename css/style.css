@@ -11,14 +11,14 @@ nav {
   margin: 0;
   padding: 12px 0;
   font-size: 1.1rem;
-  background-color: #f4f8f3; /* heel lichtgroen */
+  background-color: #f4f8f3; 
   border-bottom: 1px solid #ccc;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 nav a {
   text-decoration: none;
-  color: #006400; /* donkergroen */
+  color: #006400; 
   margin: 0 12px;
   padding: 4px 0;
   transition: color 0.2s ease;
@@ -41,10 +41,18 @@ h1 { margin: 16px auto 8px; }
 h2 {
   margin: 20px auto 8px;
   font-size: 1.25rem;
-  color: #2f4f2f; /* donker olijfgroen */
+  color: #2f4f2f; 
   max-width: 900px; padding: 0 12px;
-  text-align: left;        /* kopjes links voor rust */
+  text-align: left;        
 }
+
+p {
+  max-width: 70ch;    
+  margin: 0.5rem auto 1rem; 
+  padding: 0 12px;      
+  line-height: 1.2;     
+}
+
 
 /* Afbeeldingen & figuren */
 figure {
